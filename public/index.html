@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INM420 - Travel Buddy</title>
+
+    <!-- CSS RESET -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
+    
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+    
+    <!-- GLIDE -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.core.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.theme.min.css">
+    
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--  -->
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body class="container-fluid">
+    <!-- nav -->
+    <section class="row">
+        <nav class="navbar navbar-expand-sm navbar-expand-lg navbar-light bg-none navbar-fixed-top p-3 px-5">
+            <div class="container">
+                <a class="navbar-brand" href="#intro">
+                    <img src="assets/images/travelBuddy_logo.png" height="80px" alt="Travel Buddy Logo"/>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav_bar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    
+                <div class="collapse navbar-collapse" id="nav_bar">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item active"> <a class="nav-link" href="#intro">Home</a> </li>
+                        <li class="nav-item dropdown"> 
+                            <a class="nav-link dropdown-toggle" href="#" id="destinationsDD" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Destinations
+                            </a> 
+                            <div class="dropdown-menu" aria-labelledby="destinationsDD">
+                                <a class="dropdown-item" href="#tokyo">Tokyo</a>
+                                <a class="dropdown-item" href="#portugal">Portugal</a>
+                                <a class="dropdown-item" href="#brazil">Brazil</a>
+                            </div>
+                        </li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="#">Book </a> </li> -->
+                        <li class="nav-item"><a class="nav-link" href="#">Gallery </a> </li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact us</a> </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+        
+    </section>
+
+    <!-- welcome intro -->
+    <div class="content">
+        <section id="intro" class="container-fluid">
+            <h1 id="buddy" class="text-center">Hi Buddy!</h1>
+            <p class="text-center">Welcome to travel buddy! Here we strive aide travellers in locating the perfect locations for their dream vacations.</p>
+        </section>
+    
+        <!-- destinations -->
+        <section id="tokyo" class="destinations" data-aos="fade-up" data-aos-anchor="#tokyo">
+            <h2 class="text-start">Tokyo</h2>
+            <p>
+                Visit Tokyo today!
+            </p>
+
+            <!-- glide 1 -->
+            <section class="container arrows">
+                <div id="tokyog" class="glide">
+                    <!-- track -->
+                    <div class="glide__track" data-glide-el="track">
+                        <!-- slides -->
+                        <ul class="glide__slides">
+                            <!-- tokyo images -->
+                            <li class="glide__slide m_img"><img width="100%" height="300px" src="assets/images/tokyo/pexels-frank-minjarez-333886454-30993363.jpg"/></li>
+                            <li class="glide__slide m_img"><img width="100%" height="300px" src="assets/images/tokyo/pexels-itsehsanh-30944528.jpg"></li>
+                            <li class="glide__slide m_img"><img width="100%" height="300px" src="assets/images/tokyo/pexels-pixabay-248195.jpg"/></li>
+                            <li class="glide__slide m_img"><img width="100%" height="300px" src="assets/images/tokyo/pexels-tiennguyen-19777959.jpg"/></li>
+                            <li class="glide__slide m_img"><img width="100%" height="300px" src="assets/images/tokyo/pexels-vitalina-3800108.jpg"/></li>
+                        </ul>
+                      </div>
+                      
+                      <!-- arrow navigation -->
+                      <div class="glide__arrows" data-glide-el="controls">
+                        <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><</button>
+                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">></button>
+                      </div>
+                </div>
+            </section>
+
+            <button type="button" class="btn btn-outline-secondary btn-light">Book Now ></button>
+        </section>
+    
+        <section id="portugal" class="destinations" data-aos="fade-up" data-aos-anchor="#portugal">
+            <h2 class="text-start">Portugal</h2>
+            <p>
+                Visit Portugal today!
+            </p>
+
+            <!-- glide 2 -->
+            <section class="container arrows">
+                <div id="portugalg" class="glide">
+                    <!-- track -->
+                    <div class="glide__track" data-glide-el="track">
+                        <!-- slides -->
+                        <ul class="glide__slides">
+                            <!-- portugal images -->
+                            <li class="glide__slide m_img"><img width="100%" src="assets/images/portugal/pexels-city-trip-deals-2150105238-31055738.jpg"/></li>
+                            <li class="glide__slide m_img"><img width="100%" src="assets/images/portugal/pexels-fotios-photos-1534560.jpg"/></li>
+                            <li class="glide__slide m_img"><img width="100%" src="assets/images/portugal/pexels-goodcitizen-2271603.jpg"/></li>
+                            <li class="glide__slide m_img"><img width="100%" src="assets/images/portugal/pexels-maria-das-dores-1606375-3084603.jpg"/></li>
+                        </ul>
+                      </div>
+                      
+                      <!-- arrow navigation -->
+                      <div class="glide__arrows" data-glide-el="controls">
+                        <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><</button>
+                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">></button>
+                      </div>
+                </div>
+            </section>
+
+            <button type="button" class="btn btn-outline-secondary btn-light">Book Now ></button>
+        </section>
+    
+        <section id="brazil" class="destinations" data-aos="fade-up" data-aos-anchor="#brazil">
+            <h2 class="text-start">Brazil</h2>
+            <p>
+                Visit Brazil!
+            </p>
+
+            <!-- glide 3 -->
+            <section class="container arrows">
+                <div id="brazilg" class="glide">
+                    <!-- track -->
+                    <div class="glide__track" data-glide-el="track">
+                        <!-- slides -->
+                        <ul class="glide__slides">
+                            <!-- portugal images -->
+                            <li class="glide__slide m_img"><img width="100%" src="assets/images/brazil/pexels-4fly-rj-1461715-2818895.jpg"/></li>
+                            <li class="glide__slide m_img"><img width="100%" src="assets/images/brazil/pexels-danmds-11051182.jpg"/></li>
+                            <li class="glide__slide m_img"><img width="100%" src="assets/images/brazil/pexels-frans-van-heerden-201846-720300.jpg"/></li>
+                            <li class="glide__slide m_img"><img width="100%" src="assets/images/brazil/pexels-rafael-aguiar-2150284251-31095908.jpg"/></li>
+                        </ul>
+                      </div>
+                      
+                      <!-- arrow navigation -->
+                      <div class="glide__arrows" data-glide-el="controls">
+                        <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><</button>
+                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">></button>
+                      </div>
+                </div>
+            </section>
+            <button type="button" class="btn btn-outline-secondary btn-light">Book Now ></button>
+        </section>
+    
+        <!-- contact us -->
+        <section id="gradient" data-aos="fade-up" data-aos-anchor="#gradient">
+            <!-- <h2 class="text-start">Contact Us</h2> -->
+            <!-- Create a <canvas> element -->
+            <canvas id="bottom-gradient"></canvas>
+            
+        </section>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script src="choreographer.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init({duration: 1200}); </script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/granim/2.0.0/granim.js"></script>
+    
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>

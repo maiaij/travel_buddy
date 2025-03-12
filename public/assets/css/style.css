@@ -1,0 +1,128 @@
+body {
+    margin-bottom: 15px;
+}
+
+/* intro section */
+#intro {
+    height: 250px;
+    /* background-color: red; */
+    justify-content: center;
+    align-items: center;
+}
+
+#intro > h1 {
+    font-size: 50px;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+/* tokyo section */
+#tokyo {
+    height: 500px;
+    /* background-color: aqua; */
+    justify-content: center;
+    align-items: center;
+}
+
+/* portugal section */
+#portugal {
+    height: 500px;
+    /* background-color: yellow; */
+    justify-content: center;
+    align-items: center;
+}
+
+/* brazil section */
+#brazil {
+    height: 500px;
+    /* background-color: violet; */
+    justify-content: center;
+    align-items: center;
+}
+
+/* gradient section */
+#gradient {
+    height: 500px;
+    /* background-color: greenyellow; */
+    justify-content: center;
+    align-items: center;
+}
+
+/* add space below the glider navigation */
+.arrows {
+    padding-bottom: 30px;
+}
+
+/* setting images */
+.m_img {
+    vertical-align: middle;
+    object-fit: cover;
+    height: 300px;
+}
+
+#bottom-gradient {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+/* side padding */
+.content{
+    padding: 0 50px 0;
+}
+
+/* for desktop */
+@media (min-width: 650px){
+    #intro {
+        height: 500px;
+        /* background-color: red; */
+        justify-content:last baseline;
+        align-items: center;
+        padding-top: 150px;
+        margin-bottom: 100px;
+    }
+
+    #intro > h1 {
+        font-size: 90px;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 70px;
+    }
+
+    #tokyo {
+        height: 700px;
+        /* background-color: aqua; */
+    }
+    
+    #portugal {
+        height: 700px;
+        /* background-color: yellow; */
+    }
+    
+    #brazil {
+        height: 700px;
+        /* background-color: violet; */
+    }
+
+    #gradient {
+        height: 700px;
+        /* background-color: greenyellow; */
+    }
+    
+    /* setting images */
+    .m_img {
+        vertical-align: middle;
+        object-fit: cover;
+        height: 400px;
+    }
+}
